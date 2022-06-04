@@ -11,6 +11,18 @@ function App() {
   return (
     <div className="App">
       <Navbar />
+      <div
+        style={{
+          background: "#FF5D5D",
+          textAlign: "center",
+          height: "fit-contant",
+          padding: "1rem",
+          color: "#fff",
+          fontWeight: "bolder",
+        }}
+      >
+        Under Construction
+      </div>
       <Hero />
       <WhatWeDo />
       <Services />
