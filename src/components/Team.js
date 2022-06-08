@@ -1,7 +1,12 @@
 import { Container, Grid, Typography, Paper } from "@mui/material";
 import LanguageIcon from "@mui/icons-material/Language";
-
 import React from "react";
+
+import img1 from "../img/team/shrinath.jpg";
+import img2 from "../img/team/rushi.jpeg";
+import img3 from "../img/team/prasad.jpg";
+import img4 from "../img/team/vishnu.jpeg";
+import img5 from "../img/team/harshal.jpg";
 
 function OurClients() {
   return (
@@ -12,48 +17,39 @@ function OurClients() {
         </Typography>
 
         <Grid container spacing={0} className="Team-inner-container">
-          <Grid item md={3} className="Team-card-wrapper">
+          <Grid item md={2} className="Team-card-wrapper">
             <Paper className="team-paper">
-              <img
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIht2ih-x7jlDpdLr1gfqWZjHTGXIFozJbY8K9EDosKTWcVDOlqObELMdhqgweWGkUKWc&usqp=CAU"
-                alt="MEP"
-              />
+              <img src={img1} alt="MEP" />
               <Typography variant="h6" className="Team-name">
-                Prasad Parik
+                Shrinath Jaiswal
               </Typography>
               {/* <Typography variant="body" className="Team-post">
                 Co-Founder
               </Typography> */}
               <Typography variant="body" className="Team-post">
-                Tech Head
+                Video Editor
               </Typography>
             </Paper>
           </Grid>
 
-          <Grid item md={3} className="Team-card-wrapper">
+          <Grid item md={2} className="Team-card-wrapper">
             <Paper className="team-paper">
-              <img
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIht2ih-x7jlDpdLr1gfqWZjHTGXIFozJbY8K9EDosKTWcVDOlqObELMdhqgweWGkUKWc&usqp=CAU"
-                alt="MEP"
-              />
+              <img src={img2} alt="MEP" />
               <Typography variant="h6" className="Team-name">
-                Prasad Parik
+                Rushikesh Pallod
               </Typography>
               {/* <Typography variant="body" className="Team-post">
                 Co-Founder
               </Typography> */}
               <Typography variant="body" className="Team-post">
-                Tech Head
+                Project Manager
               </Typography>
             </Paper>
           </Grid>
 
-          <Grid item md={3} className="Team-card-wrapper">
+          <Grid item md={2} className="Team-card-wrapper">
             <Paper className="team-paper">
-              <img
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIht2ih-x7jlDpdLr1gfqWZjHTGXIFozJbY8K9EDosKTWcVDOlqObELMdhqgweWGkUKWc&usqp=CAU"
-                alt="MEP"
-              />
+              <img src={img3} alt="MEP" />
               <Typography variant="h6" className="Team-name">
                 Prasad Parik
               </Typography>
@@ -61,25 +57,37 @@ function OurClients() {
                 Co-Founder
               </Typography> */}
               <Typography variant="body" className="Team-post">
-                Tech Head
+                Technical Head
               </Typography>
             </Paper>
           </Grid>
 
-          <Grid item md={3} className="Team-card-wrapper">
+          <Grid item md={2} className="Team-card-wrapper">
             <Paper className="team-paper">
-              <img
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIht2ih-x7jlDpdLr1gfqWZjHTGXIFozJbY8K9EDosKTWcVDOlqObELMdhqgweWGkUKWc&usqp=CAU"
-                alt="MEP"
-              />
+              <img src={img4} alt="MEP" />
               <Typography variant="h6" className="Team-name">
-                Prasad Parik
+                Vishnu Kabra
               </Typography>
               {/* <Typography variant="body" className="Team-post">
                 Co-Founder
               </Typography> */}
               <Typography variant="body" className="Team-post">
-                Tech Head
+                P.R.O
+              </Typography>
+            </Paper>
+          </Grid>
+
+          <Grid item md={2} className="Team-card-wrapper">
+            <Paper className="team-paper">
+              <img src={img5} alt="MEP" />
+              <Typography variant="h6" className="Team-name">
+                Harshal
+              </Typography>
+              {/* <Typography variant="body" className="Team-post">
+                Co-Founder
+              </Typography> */}
+              <Typography variant="body" className="Team-post">
+                Graphic
               </Typography>
             </Paper>
           </Grid>

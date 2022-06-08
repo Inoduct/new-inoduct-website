@@ -197,6 +197,9 @@
   text-align: center !important;
 }
 
+.Team-name {
+  font-size: medium !important;
+}
 .team-paper {
   align-items: center;
   justify-content: center !important;
