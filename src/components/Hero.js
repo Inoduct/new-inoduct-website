@@ -10,7 +10,7 @@ function Hero() {
           <Typography variant="h3" className="hero-title">
             Fast & Effective <br /> Solution With <br /> Inoduct
           </Typography>
-          <Button color="inherit" className="contact">
+          <Button color="inherit" className="contact getInTouch">
             Get In Touch
           </Button>
         </Grid>

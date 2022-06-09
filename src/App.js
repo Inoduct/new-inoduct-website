@@ -7,12 +7,13 @@ import Footer from "./components/Footer";
 import Services from "./components/Services";
 import OurClients from "./components/OurClients";
 import Team from "./components/Team";
+import NewServices from "./components/NewServices";
 
 function App() {
   return (
     <div className="App">
       <Navbar />
-      <div
+      {/* <div
         style={{
           background: "#FF5D5D",
           textAlign: "center",
@@ -23,10 +24,11 @@ function App() {
         }}
       >
         Under Construction
-      </div>
+      </div> */}
       <Hero />
       <WhatWeDo />
-      <Services />
+      {/* <Services /> */}
+      <NewServices />
       <OurClients />
       <Team />
       <Footer />

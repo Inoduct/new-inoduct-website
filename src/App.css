@@ -2,6 +2,7 @@
   background-color: #fff !important;
   color: black !important;
   box-shadow: none !important;
+  border-bottom: 3px solid #eee;
 }
 
 .logo-name {
@@ -11,13 +12,13 @@
   background-color: black !important;
   color: #ffffff !important;
   padding: 0.5rem 2rem !important;
-  border-radius: 0 !important;
+  border-radius: 8px !important;
 }
 
 /* hero-container===================================== */
 
 .hero-container {
-  background-color: #f7eeffd1;
+  background-color: #ffffffd1;
   /* border-radius: 1rem; */
 }
 .hero-logo-grid {
@@ -29,7 +30,7 @@
   );
   display: flex;
   justify-content: center !important;
-  /* border-radius: 0 1rem 1rem 0; */
+  border-radius: 0 0 50rem 50rem;
 }
 
 .hero-title-grid {
@@ -49,11 +50,18 @@
 /*  What We Do =========================================== */
 
 .WhatWeDo-container {
-  /* background-color: antiquewhite; */
+  margin: 5rem 0;
+  margin-top: 8rem;
+  padding: 3rem;
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
+  background: linear-gradient(0deg, #ffffff, #ffffff),
+    linear-gradient(0deg, #ffffff, #ffffff), #ffffff;
+  box-shadow: 0px 17px 101px 16px rgba(234, 233, 233, 0.7);
+  border-radius: 14px;
+  border: 5px solid rgb(228, 235, 239);
 }
 
 .WhatWeDo-para-wrapper {
@@ -64,12 +72,13 @@
 .WhatWeDo-title {
   font-weight: 600 !important;
   line-height: 5rem !important;
-  margin-top: 5rem !important;
-  margin-bottom: -1rem !important;
+  /* margin-top: 5rem !important;
+  margin-bottom: -1rem !important; */
 }
 .WhatWeDo-para {
   font-size: larger !important;
   padding: -2rem 4rem;
+  line-height: 2rem !important;
   opacity: 0.8;
 }
 
@@ -77,14 +86,14 @@
 
 .services-container {
   text-align: center;
-  background-color: #eff3f4;
+  /* background-color: #eff3f4; */
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .services-inner-container {
   padding-bottom: 4rem;
-  background-color: #eff3f4;
+  /* background-color: #eff3f4; */
   justify-content: center;
 }
 
@@ -127,10 +136,47 @@
   font-size: 4em !important;
 }
 
+/* New Services ======================================== */
+
+.services-container {
+  display: block !important;
+}
+.services-mobile {
+  display: none !important;
+}
+
+.services-img {
+  width: 80%;
+}
+
+.service-title {
+  font-weight: 700 !important;
+  margin-top: 3rem !important;
+  line-height: 6rem !important;
+}
+.service-title b {
+  background-color: #d2aeff;
+  padding: 0.5rem 2rem;
+}
+.app {
+  margin-top: 15rem !important;
+}
+.app b {
+  background-color: #ffaeae;
+  padding: 0.5rem 2rem;
+}
+.ui {
+  margin-top: 8rem !important;
+}
+.ui b {
+  background-color: #82dbd8;
+  padding: 0.5rem 2rem;
+}
+
 /* OurClients-container ============================ */
 .OurClients-container {
   text-align: center;
-  background-color: #1b262c;
+  background-color: #f8fafb;
   display: flex;
   justify-content: center !important;
   align-items: center !important;
@@ -142,7 +188,7 @@
   justify-content: center;
 }
 .OurClients-title {
-  color: #fff;
+  color: #111;
   font-weight: 600 !important;
   line-height: 5rem !important;
   margin-top: 5rem !important;
@@ -161,6 +207,9 @@
   width: 200px;
   padding: 1rem;
   background: rgb(255, 255, 255) !important;
+  box-shadow: 0px 17px 101px 16px rgba(239, 240, 249, 0.7) !important;
+  border-radius: 14px !important;
+  border: 5px solid rgb(228, 235, 239);
 }
 .OurClients-paper img {
   width: 70%;
@@ -177,7 +226,7 @@
 
 .Team-container {
   text-align: center;
-  background-color: #f7f7f7;
+  background-color: #ffffff;
   display: flex;
   justify-content: center !important;
   align-items: center !important;
@@ -221,6 +270,7 @@
   background-color: #ffffff;
   height: 400px;
   width: 100%;
+  border-top: 3px solid #eee;
 }
 
 .FooterContainer {
@@ -261,4 +311,66 @@
     rgba(169, 188, 255, 1) 0%,
     rgba(255, 178, 247, 1) 100%
   );
+}
+
+/* RESPONSIVE CSS ============================================ */
+@media screen and (max-width: 552px) {
+  .hero-container {
+    background-color: #ffffffd1;
+    display: flex !important;
+  }
+  .hero-title-grid {
+    padding: 1rem;
+  }
+  .hero-logo-grid {
+    background: rgb(169, 188, 255);
+    background: linear-gradient(
+      180deg,
+      rgba(169, 188, 255, 1) 0%,
+      rgba(255, 178, 247, 1) 100%
+    );
+    display: flex;
+    justify-content: center !important;
+    border-radius: 0 0 50rem 50rem;
+  }
+  .hero-title {
+    font-weight: 600 !important;
+    line-height: 5rem !important;
+    margin-top: 5rem !important;
+    margin-bottom: 3rem !important;
+    text-align: center;
+  }
+  .getInTouch {
+    display: none !important;
+  }
+  .WhatWeDo-container {
+    margin: 3rem 0;
+    padding: 1rem;
+  }
+  .WhatWeDo-title {
+    font-size: xx-large !important;
+  }
+  .WhatWeDo-para {
+    text-align: justify;
+  }
+
+  /*  New Services ============================================== */
+
+  .services {
+    display: none !important;
+  }
+  .services-mobile {
+    display: block !important;
+  }
+  .service-title {
+    margin: 0rem 0 !important;
+  }
+  .service-card-wrapper {
+    padding: 0rem;
+    display: flex;
+    justify-content: center;
+  }
+  .services-inner-container {
+    border-bottom: 3px solid #eee;
+  }
 }
